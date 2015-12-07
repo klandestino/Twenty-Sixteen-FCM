@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Twenty Sixteen Featured Content Manager
+ Theme URI:    https://plugins.klandestino.se
+ Description:  Child theme to make Twenty Sixteen shine with the Featured Content Manager plugin
+ Author:       Klandestino
+ Author URI:   http://klandestino.se
+ Template:     twentysixteen
+ Version:      0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.fcm-child {
+	width: 50%;
+	padding: 1rem;
+	float: left;
+}
