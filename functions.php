@@ -13,7 +13,6 @@ add_action( 'wp_enqueue_scripts', 'twentysixteen_fcm_enqueue_style' );
  */
 function twentysixteen_fcm_add_fcm_support() {
 	add_theme_support( 'featured-content-manager' );
-	add_image_size( 'fcm-child-thumbnail', 600, 0, true );
 }
 add_action( 'after_setup_theme', 'twentysixteen_fcm_add_fcm_support' );
 
