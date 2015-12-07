@@ -57,7 +57,7 @@
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
 
-	<?php
+	<?php if ( is_home() ) :
 		$children = fcm_get_children();
 		if ( $children->have_posts() ) :
 			while ( $children->have_posts() ) :
@@ -66,6 +66,6 @@
 			endwhile;
 			wp_reset_postdata();
 		endif;
-	?>
+	endif; ?>
 
 </article><!-- #post-## -->
